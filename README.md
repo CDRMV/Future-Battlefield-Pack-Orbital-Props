@@ -6,17 +6,21 @@ However these Prop units are not similar like the regular Props from the Game.
 They are working as regular units like Stationary or Mobile Units.
 So they are selectable, destroyable, movaable or whatever depending on Stationary or Mobile.
 
-Currently it includes these Prop Units or Types:
+Currently it includes these Prop Units as Early Access:
 - Comet (Mobile Unit)
 - Nebula (Stationary Unit)
 
+Note:
+They are still in WIP
+
 Planned:
-Asteroidfield (Stationary Unit)
-Debrisfield (Stationary Unit)
-Wormhole (Stationary Unit)
-Blackhole (Stationary Unit)
-Ion Nebula (Stationary Unit)
-Asteriod (Mobile Unit)
+
+- Asteroidfield (Stationary Unit)
+- Debrisfield (Stationary Unit)
+- Wormhole (Stationary Unit)
+- Blackhole (Stationary Unit)
+- Ion Nebula (Stationary Unit)
+- Asteriod (Mobile Unit)
 
 IMPORTANT NOTE:
 These Prop units are not buildable by any Faction.
