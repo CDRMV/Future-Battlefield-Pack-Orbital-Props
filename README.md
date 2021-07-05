@@ -27,7 +27,7 @@ IMPORTANT NOTE:
 These Prop units are not buildable by any Faction.
 So if you want to check them out ingame spawn them with the Cheat Menu like a regular Unit
 
-The UnitId are categorized as OPOXXXX
+The UnitID's are categorized as OPOXXXX
 
 
 
