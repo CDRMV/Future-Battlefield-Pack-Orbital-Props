@@ -5,6 +5,7 @@ This Mod includes following Space Objects as Prop Units:
 However these Prop units are not similar like the regular Props from the Game.
 They are working as regular units like Stationary or Mobile Units.
 So they are selectable, destroyable, movaable or whatever depending on Stationary or Mobile.
+Depending on the Prop a few of them will be able to damage Spaceships, deactive thier Shields or whatever.
 
 Currently it includes these Prop Units as Early Access:
 - Comet (Mobile Unit)
