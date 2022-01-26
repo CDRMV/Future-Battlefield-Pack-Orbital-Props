@@ -6,3 +6,6 @@ CometUnit = Class(MobileUnit) {
 
 NebulaUnit = Class(MobileUnit) {
 }
+
+PlanetUnit = Class(MobileUnit) {
+}
