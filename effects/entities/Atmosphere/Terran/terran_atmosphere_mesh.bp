@@ -1,0 +1,13 @@
+MeshBlueprint {
+    LODs = {
+        {
+            ShaderName = 'GlassAlpha',
+            SpecularName = 'terran_atmosphere_specteam.dds',
+            NormalsName = 'terran_atmosphere_normalsts.dds',
+            MeshName = '/mods/Future Battlefield Pack Orbital Props/effects/entities/Atmosphere/atmosphere_lod0.scm',
+            AlbedoName = 'terran_atmosphere_albedo.dds',
+            LODCutoff = 1000,
+        },
+    },
+    SortOrder = 1000,
+}

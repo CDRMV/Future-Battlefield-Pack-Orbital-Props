@@ -68,7 +68,7 @@ UnitBlueprint {
             IconFadeInZoom = 230,
             LODs = {
                 {
-                    LODCutoff = 500,
+                    LODCutoff = 1000,
                     Scrolling = true,
                     ShaderName = 'Unit',
                 },

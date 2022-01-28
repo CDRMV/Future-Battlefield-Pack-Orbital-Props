@@ -15,15 +15,24 @@ opo1002 = Class(PlanetUnit) {
 	OnCreate = function(self)
 	PlanetUnit.OnCreate(self)
             self.Clouds = import('/lua/sim/Entity.lua').Entity({Owner = self,})
-            self.Clouds:AttachBoneTo( -1, self, 'Planet' )
-            self.Clouds:SetMesh('/mods/Future Battlefield Pack Orbital Props/units/OPO1002/OPO1002_Clouds_mesh')
+            self.Clouds:AttachBoneTo( -1, self, 'Attachpoint' )
+            self.Clouds:SetMesh('/mods/Future Battlefield Pack Orbital Props/effects/entities/Atmosphere/Terran/terran_atmosphere_mesh')
             self.Clouds:SetDrawScale(6.1)
             self.Clouds:SetVizToAllies('Intel')
             self.Clouds:SetVizToNeutrals('Intel')
             self.Clouds:SetVizToEnemies('Intel')
-            self.CloudsRotator = CreateRotator(self, 'Planet', 'y', nil, math.random(1, 0) )
-			self.CloudsRotator = CreateRotator(self, 'Cloud', 'y', nil, math.random(-5, 5) )
+            self.CloudsRotator = CreateRotator(self, 'Attachpoint', 'y', nil, math.random(-5, 0) )
             self.Trash:Add(self.Clouds)
+			
+			self.ring = import('/lua/sim/Entity.lua').Entity({Owner = self,})
+            self.ring:AttachBoneTo( -1, self, 'Planet' )
+            self.ring:SetMesh('/mods/Future Battlefield Pack Orbital Props/effects/entities/Planet Ring/Ring_mesh')
+            self.ring:SetDrawScale(6.1)
+            self.ring:SetVizToAllies('Intel')
+            self.ring:SetVizToNeutrals('Intel')
+            self.ring:SetVizToEnemies('Intel')
+			self.ringRotator = CreateRotator(self, 'Planet', 'y', nil, math.random(1, 0) )
+            self.Trash:Add(self.ring)
 	end
 }
 
